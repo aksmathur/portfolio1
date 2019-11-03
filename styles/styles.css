@@ -39,9 +39,6 @@ h3.under {
   color: #778899;
   font-stretch: expanded;
 }
-.bold {
-  font-weight: bold;
-}
 .p.color {
   color: #BA55D3;
   font-style: oblique;
@@ -50,9 +47,6 @@ h3.under {
 }
 p {
   padding: 10px;
-}
-.courselinks {
-  color: #f1f2f4;
 }
 p.style {
   font-style: oblique;
@@ -64,10 +58,6 @@ p.style {
 .box {
   border: 2px dotted;
   padding: 1.5rem;
-}
-.header {
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 .table {
   background-color: #D2B48C;
