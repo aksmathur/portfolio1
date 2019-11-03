@@ -8,7 +8,7 @@ Header {
 }
 body {
   font-family: "monospace";
-  font-weight: 14rem;
+  font-weight: lighter;
   background-color: #FAEBD7;
 }
 nav {
@@ -55,7 +55,7 @@ p {
   color: #f1f2f4;
 }
 p.style {
-  font-style: oblique 40deg;
+  font-style: oblique;
   text-decoration: underline;
 }
 .image {
