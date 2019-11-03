@@ -1,64 +1,87 @@
+Header {
+    background: #FF6347;
+    height: 100px;
+    font-family: monospace, Arial, Helvetica;
+    width: 981px;
+    margin: 10px auto 10px;
+    overflow: hidden;
+}
 body {
   font-family: "monospace";
   font-weight: 14rem;
+  background-color: #FAEBD7;
 }
 nav {
-  font-weight: bolder;
+  font-style: italic;
+  font-stretch: expanded;
 }
-.navlink {
-  color: green;
+.link {
+  color: #F5F5F5;
+  font-weight: bold;
+  font-stretch: extra-expanded;
 }
 h1 {
+  color: #CD853F;
   text-align: center;
+  font-size: 3rem;
 }
-h2.welcome {
-  color: #40e0d0;
+h2.lorem {
   font-weight: bold;
-  font-size: 2rem;
+  margin: 0 auto 20px;
+  padding-left: 20px;
+  color: #F08080;
+  font-size: 1.5rem;
 }
-.italicize {
-  font-style: italic;
+h3.under {
+  text-decoration: underline;
+}
+.fontex {
+  color: #778899;
+  font-stretch: expanded;
 }
 .bold {
   font-weight: bold;
 }
-.bold.popgrey {
-  color: #a7a0a0;
+.p.color {
+  color: #BA55D3;
+  font-style: oblique;
+  padding: 20px 20px;
+  text-align: justify;
 }
-.courseheading {
-  font-weight: bolder;
+p {
+  padding: 10px;
 }
 .courselinks {
   color: #f1f2f4;
 }
-footer {
-  font-size: .6em;
+p.style {
+  font-style: oblique 40deg;
+  text-decoration: underline;
 }
-.socialglyph {
-  border-style: none;
-  padding: 5px;
+.image {
+  padding: 25px;
 }
-.assignmentimg {
-  border: 3px solid;
-  padding: 15px;
+.box {
+  border: 2px dotted;
+  padding: 1.5rem;
 }
-.titledescription {
-  font-size: 1.2rem;
-}
-.quarterheader {
+.header {
   font-size: 1.2rem;
   font-weight: bold;
 }
-.grid-container {
+.table {
+  background-color: #D2B48C;
+  text-align: justify;
+  text-decoration-style: dotted;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  margin: 1%;
-  padding: 1%;
+  grid-template: 100px / auto auto auto;
+  padding: 5%;
 }
-section.course {
-  background-color: #b0e0e6;
-  border: 3px dotted;
-  margin: 3%;
-  padding: 3%;
-  /* width: 30%; */
+footer {
+  background-color: #FF6347;
+  width: 100%;
+  margin: 0 auto 2px;
+  text-shadow: 0 1px 0px #fff0;
+  text-align: center;
+  font-size: 1em;
 }
