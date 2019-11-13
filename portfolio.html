@@ -1,41 +1,69 @@
 <!DOCTYPE html>
+<!-- Landing Page -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>PORTFOLIO</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>HTML & CSS Foundations</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5118173e79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header>
+      <section class="container">
+        <div class="box">
+        <i class="far fa-file-code"></i>
+        </div>
+        <div class="box">
+              <h1>HTML & CSS Foundations</h1>
+        </div>
+      </section>
+    </header>
+    <section>
       <nav>
-        <ul>
-          <li><a class="link" href="index.html">Home</a></li>
-          <li><a class="link" href="sementic.html">HTML Course Assignment</a></li>
+        <ul class="box">
+          <li class= "link-seperator"><a class="navlink" href="index.html">Home</a></li>
+            <li class="link-seperator"><a class="navlink" href="sementic.html">HTML Course Assignment</a></li>
+            <li><a class="navlink" href="portfolio.html">Course Module</a></li>
         </ul>
       </nav>
-          <h2 class="lorem">Course Module - learned so far</h2>
-    </header>
-    <main>
-      <section>
-        <h3 class="box">Introduction to HTML and git</h3>
-          <p>HTML 5 course module starts with Introduction to HTML and learning about basic & essential softwares and tools
-            required to code, validate and view your work.</p>
-        <h3 class="box">CSS Basics</h3>
-          <p class="p color">This module introduces and provides basics of coding through CSS. CSS. Stands for "Cascading
-            Style Sheet." ... CSS helps Web developers create a uniform look across several pages of a Web site. Instead of
-            defining the style of each table and each block of text within a page's HTML, commonly used styles need to be defined only
-            once in a CSS document.</p>
-        <h3 class="box">CSS Box Model</h3>
-          <p>All HTML elements can be considered as <b>boxes</b>. In <b>CSS</b>, the term <b>"box model"</b> is used when talking about design and
-            layout. The <b>CSS box model</b> is essentially a <b>box</b> that wraps around every HTML element. It consists of: margins, borders,
-            padding, and the actual content.</p>
-          <p class="style">Each lesson is followed by an assignment, which tests the learning and creativity.</p>
-
-      </section>
-    </main>
-    <footer>
-      <p>This course is offered through or in partnership with</p>
-        <p><a href="https://www.continuum.uw.edu/">UW Continuum College</a></p>
-    </footer>
+    </section>
+    <section class="grid-container2">
+      <div class="box1">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="box">
+        <h2>Course Module  - learned so far</h2>
+        <h4>Introduction to HTML and git</h4>
+        <p>HTML 5 course module starts with Introduction to HTML and learning about basic & essential softwares and tools
+            required to code, validate and view your work</p>
+        <h4>CSS Basics</h4>
+        <p>This module introduces and provides basics of coding through CSS. CSS. Stands for "Cascading Style Sheet." ... CSS
+          helps Web developers create a uniform look across several pages of a Web site. Instead of defining the style of each
+          table and each block of text within a page's HTML, commonly used styles need to be defined only once in a CSS document.</p>
+        <h4>CSS Box Model</h4>
+        <p>All HTML elements can be considered as <b>boxes</b>. In <b>CSS</b>, the term <b>"box model"</b> is used when talking
+          about design and layout. The <b>CSS box model</b> is essentially a <b>box</b> that wraps around every HTML element. It
+          consists of: margins, borders, padding, and the actual content.</p>
+         <p class="style">Each lesson is followed by an assignment, which tests the learning and creativity.</p>
+      </div>
+    </section>
+      <footer>
+        <section class="grid-container1">
+          <div class="">
+          </div>
+          <div class="falign1">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="falign2">
+            <p>This course is offered through or in partnership with
+            <a class="navlink1" href="https://www.continuum.uw.edu/">UW Continuum College</a></p>
+          </div>
+          <div class="">
+          </div>
+        </section>
+      </footer>
   </body>
 </html>

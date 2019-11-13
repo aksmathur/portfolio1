@@ -1,31 +1,49 @@
 <!DOCTYPE html>
+<!-- Landing Page -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Semantic Elements</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>HTML & CSS Foundations</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono|PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5118173e79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header>
-      <nav>
-        <section>
-          <ul>
-            <li><a class="link" href="index.html">Home</a></li>
-            <li><a class="link" href="Portfolio.html">Portfolio</a></li>
-          </ul>
-        </section>
-          <h2 class="lorem">SEMANTIC ELEMENTS</h2>
-        </nav>
+      <section class="container">
+        <div class="box">
+        <a class="navlink" href="index.html"><i class="far fa-file-code"></i></a>
+        </div>
+        <div class="box">
+              <h1>HTML & CSS Foundations</h1>
+        </div>
+      </section>
     </header>
     <section>
-      <hr>
-      <h2>Overview</h2>
-      <p>Semantic HTML elements helps in describing the purpose of the element and the type of content that is inside them to browser and developer in a more readable way.</p>
+      <nav>
+        <ul class="box">
+          <li class= "link-seperator"><a class="navlink" href="index.html">Home</a></li>
+            <li class="link-seperator"><a class="navlink" href="sementic.html">HTML Course Assignment</a></li>
+            <li><a class="navlink" href="portfolio.html">Course Module</a></li>
+        </ul>
+      </nav>
     </section>
+    <section class="grid-container">
+      <div class="box1">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="box">
+          <h2>SEMANTIC ELEMENTS</h2>
+        </nav>
+      <hr>
+      <h4>Overview</h4>
+      <p>Semantic HTML elements helps in describing the purpose of the element and the type of content that is inside them to
+        browser and developer in a more readable way.</p>
     <article>
-      <section>
         <details>
-            <summary>Examples of Semantic Elements in HTML5</summary>
+            <summary class="fstyle">Examples of Semantic Elements in HTML5</summary>
             <ol start="1">
               <li>Article</li>
               <li>Details</li>
@@ -37,28 +55,32 @@
               <li>Section</li>
             </ol>
           </details>
-      </section>
     </article>
-
     <article>
-        <h2>Benefits of Sementic Elements</h2>
+        <h4>Benefits of Sementic Elements</h4>
           <ul>
-            <li>Better SEO</li>
-            <li>Improves accessibility</li>
-            <li>Ease in code development</li>
+            <li class="fstyle">Better SEO</li>
+            <li class="fstyle">Improves accessibility</li>
+            <li class="fstyle">Ease in code development</li>
           </ul>
     </article>
-
         <h2>Conclusion</h2>
           <p>Semantic elements helps in structuring the code, making it more readable and easier to manage.</p>
-
-      <footer>
-        <img class="box" src="images/semantic.jpg" alt="Sementic Elements" width="80">
-          <p>
-            <mark>Sementic Elements</mark>
-          </p>
-          <p>This course is offered through or in partnership with</p>
-            <p><a href="https://www.continuum.uw.edu/">UW Continuum College</a></p>
-      </footer>
-  </body>
-</html>
+    </section>
+          <footer>
+            <section class="grid-container1">
+              <div class="">
+              </div>
+              <div class="falign1">
+                <i class="fas fa-university"></i>
+              </div>
+              <div class="falign2">
+                <p>This course is offered through or in partnership with
+                <a class="navlink1" href="https://www.continuum.uw.edu/">UW Continuum College</a></p>
+              </div>
+              <div class="">
+              </div>
+            </section>
+          </footer>
+        </body>
+      </html>
