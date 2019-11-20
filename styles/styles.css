@@ -1,11 +1,18 @@
 * {
   box-sizing: border-box;
 }
+
+/*Lesson 06 CSS Transition Tags */
+div {
+  transition: background 0.2s ease,
+              padding 0.8s linear;
+}
 header {
   padding: 1rem 1rem 1rem 1rem;
   border-bottom: 1px outset red;
   position: sticky;
 }
+
 header h1 {
   text-align: left;
   color: #444310;
@@ -13,15 +20,35 @@ header h1 {
   font-size: 2rem;
   font-weight: bold;
 }
+h4 {
+  opacity:0.5;
+  border-radius: 100%
+}
+body {
+  overflow: hidden;
+}
 .far {
   padding-left: 1rem;
   font-size: 4rem;
   width: 10rem;
   color: #444310;
 }
+/*Lesson 06 CSS Transition Tags */
+h4:hover {
+  background-color: red;
+  transition-timing-function: linear;
+   opacity:1;
+   border-radius:50%;
+  -webkit-transition: background-color 10s ease-out;
+  -moz-transition: background-color 5s ease-out;
+  -o-transition: background-color 5s ease-out;
+  transition: background-color 5s ease-out;
+  padding-left: 15rem;
+}
 .fab {
   padding-top: 2rem;
   padding-bottom: 2rem;
+
 }
 .fas {
   font-size: 3rem;
@@ -45,12 +72,12 @@ header h1 {
 }
 .portcontainer {
   display: flex;
-
 }
 .grid-container {
   display: grid;
   grid-template-columns: 10% 45% 45% 5%;
   padding: 4rem 4rem 4rem 4rem;
+  overflow: scroll;
 }
 .grid-container1 {
   display: grid;
@@ -61,16 +88,24 @@ header h1 {
   display: grid;
   grid-template-columns: 10% 75% 10% 5%;
   margin: 1%;
-
+  overflow: scroll;
 }
-
+a:visited {
+   color: darkgrey;
+}
+a:hover {
+  color: purple;
+  font-weight: bold;
+}
 nav ul {
   display: flex;
   flex-direction: row;
   margin-left: 1rem;
   text-align: center;
   align-items: center;
+
 }
+
 nav ul li {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
@@ -85,9 +120,17 @@ nav ul li {
   border-right-color: red;
   border-right-width: thin;
 }
+/*Lesson 06 CSS Transition Tags */
 .navlink {
   color: #3A3A3A;
   font-size: .7rem;
+  cursor: crosshair;
+}
+section {
+  border: 1px solid white;
+}
+section:hover {
+   border: 1px solid lightgrey;
 }
 h2 {
   font-family: 'IBM Plex Mono', monospace;
@@ -95,6 +138,7 @@ h2 {
 }
 h4 {
   font-family: 'IBM Plex Mono', monospace;
+
 }
 li.fstyle {
   font-family: 'PT Sans', sans-serif;
@@ -111,13 +155,15 @@ p {
 }
 footer {
   bottom: 0;
-  height: 5rem;
+  height: 1rem;
   padding: 2rem 1rem 2rem;
   border-top: 1px outset red;
   font-family: 'IBM Plex Mono', monospace;
+
 }
 footer.container {
   align-self: center;
+  clear: both;
 }
 .falign1 {
   text-align: right;
